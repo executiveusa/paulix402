@@ -1,0 +1,32 @@
+{
+  "id": "crypto-cuties",
+  "name": "Crypto Cuties",
+  "tagline": "Money for humans and machines.",
+  "thesis": "Own your rails. Verify everything.",
+  "mode": "education-and-proof",
+  "domain": null,
+  "theme": {
+    "direction": "editorial-nightlife-fintech",
+    "tone": "provocative-intelligent-transparent",
+    "avoid": ["casino-crypto", "token-pumping", "generic-neon-web3", "dating-site"]
+  },
+  "callsToAction": [
+    "Watch the $1 proof",
+    "View the open-source code",
+    "Launch your own payment stack"
+  ],
+  "rails": {
+    "x402": true,
+    "usdc": true,
+    "bitcoinLightning": "roadmap",
+    "xrpl": "roadmap",
+    "creem": "roadmap",
+    "stripeCashApp": "optional"
+  },
+  "disclosures": [
+    "AI characters are synthetic.",
+    "Educational information only.",
+    "No token sale or investment solicitation.",
+    "Verify claims and transactions independently."
+  ]
+}

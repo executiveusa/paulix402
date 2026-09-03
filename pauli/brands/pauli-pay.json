@@ -1,0 +1,24 @@
+{
+  "id": "pauli-pay",
+  "name": "Pauli Pay",
+  "tagline": "Your money. Your rails.",
+  "mode": "owner-studio",
+  "domain": null,
+  "theme": {
+    "direction": "minimal-sovereign-premium",
+    "tone": "direct-confident-transparent"
+  },
+  "callsToAction": [
+    "Send",
+    "Request",
+    "Create payment link"
+  ],
+  "rails": {
+    "x402": true,
+    "usdc": true,
+    "bitcoinLightning": "roadmap",
+    "xrpl": "roadmap",
+    "creem": "roadmap",
+    "stripeCashApp": "optional"
+  }
+}

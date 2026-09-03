@@ -1,0 +1,35 @@
+{
+  "id": "max-pay",
+  "name": "Max Pay",
+  "parentBrand": "Max Digital Media",
+  "tagline": "Simple payments. More ways to get paid.",
+  "mode": "client-pilot",
+  "domain": null,
+  "theme": {
+    "direction": "clean-urban-premium",
+    "tone": "simple-trustworthy-nontechnical"
+  },
+  "callsToAction": [
+    "Pay now",
+    "Create payment link",
+    "View receipt"
+  ],
+  "rails": {
+    "x402": true,
+    "usdc": true,
+    "bitcoinLightning": "roadmap",
+    "xrpl": "roadmap",
+    "creem": "roadmap",
+    "stripeCashApp": "optional"
+  },
+  "pilotProof": {
+    "goal": "Use the same Sovereign Payments core as Crypto Cuties with branding/configuration changes only.",
+    "required": [
+      "real small-value payment",
+      "verified settlement",
+      "receipt",
+      "no private keys in frontend",
+      "rail can be disabled without affecting the other adapters"
+    ]
+  }
+}
