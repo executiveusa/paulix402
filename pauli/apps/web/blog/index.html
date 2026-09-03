@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="description" content="MaxPay Field Notes: practical research on programmable payments, x402 and financial resilience." />
+    <title>MaxPay Field Notes — Money is becoming software.</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="article-nav shell">
+      <a class="wordmark" href="/">MAX<span>PAY</span></a>
+      <a class="back-link" href="/">← Private beta</a>
+    </header>
+
+    <main class="article-shell">
+      <p class="article-kicker">MAXPAY FIELD NOTES · 001</p>
+      <h1>Money is becoming software.</h1>
+      <p class="article-deck">
+        The interesting part of modern payments is not which token wins. It is that payment instructions themselves are becoming programmable,
+        portable and understandable by machines.
+      </p>
+
+      <section class="article-block" id="x402">
+        <h2>Why HTTP 402 matters now.</h2>
+        <p>
+          The web already has status codes for success, authentication and missing pages. HTTP <strong>402 Payment Required</strong> has existed for years,
+          but modern payment protocols are finally making it useful: a server can describe what it costs, a client can satisfy the requirement,
+          and the server can verify settlement before returning the resource.
+        </p>
+        <p>
+          That matters because the buyer does not have to be a person staring at a checkout screen. It can be software or an AI agent operating under a budget.
+        </p>
+      </section>
+
+      <section class="article-block" id="mechanisms">
+        <h2>Four ideas worth understanding.</h2>
+        <h3>Exact</h3>
+        <p>Use it when the price is known in advance: pay the exact amount required for the resource or service.</p>
+        <h3>Up to</h3>
+        <p>Authorize a maximum amount and settle the actual usage. This is a much better mental model for metered compute, tools and autonomous agents.</p>
+        <h3>Batch settlement</h3>
+        <p>Many tiny charges can be accumulated and settled together, reducing the friction of paying on every individual machine interaction.</p>
+        <h3>Session / time-limited access</h3>
+        <p>Some value is better sold as a temporary window of access than as a permanent purchase or recurring monthly subscription.</p>
+      </section>
+
+      <section class="article-block" id="sovereignty">
+        <h2>Sovereignty is not “no banks.”</h2>
+        <p>
+          MaxPay is not built around a fantasy that one network replaces everything. Banks, cards, stablecoins, Bitcoin, Lightning and other rails each have different strengths and dependencies.
+        </p>
+        <p>
+          Our working definition of sovereignty is simpler: <strong>no single provider should be able to stop the entire business.</strong>
+          A resilient system can route around failures, keep verifiable records and let the owner retain control of critical infrastructure and keys.
+        </p>
+      </section>
+
+      <section class="article-block">
+        <h2>What MaxPay is actually building.</h2>
+        <p>One interface that can eventually normalize several kinds of payment into one receipt and ledger:</p>
+        <ul>
+          <li>human-to-business payment requests,</li>
+          <li>machine-to-machine x402 payments,</li>
+          <li>stable-value and crypto rails,</li>
+          <li>traditional providers where they remain the best option,</li>
+          <li>white-label deployments for individual businesses.</li>
+        </ul>
+        <p>
+          The first standard is evidence: if a rail is not independently verified, replay-safe and receipted, we do not call it live.
+        </p>
+      </section>
+
+      <section class="article-block">
+        <p class="article-kicker">IMPORTANT</p>
+        <h2>This is infrastructure research, not investment advice.</h2>
+        <p>
+          MaxPay does not issue a token, solicit investment in assets, promise returns or tell readers what to buy. The work is about payment technology,
+          operational resilience and open-source infrastructure.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/#invite">Request MaxPay access</a>
+          <a class="button button-ghost" href="https://github.com/executiveusa/paulix402">Inspect the code</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
